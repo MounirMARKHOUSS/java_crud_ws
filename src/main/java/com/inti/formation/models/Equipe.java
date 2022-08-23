@@ -1,4 +1,4 @@
-package com.inti.formation.models;
+ package com.inti.formation.models;
 
 import java.util.List;
 
@@ -10,7 +10,6 @@ import javax.persistence.OneToMany;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
  
-
 @Entity
 public class Equipe {
 	@Id
@@ -72,7 +71,6 @@ public class Equipe {
 		return "Equipe [id=" + id + ", nom_equipe=" + nom_equipe + ", nombre_joueur=" + nombre_joueur + ", joueurs="
 				+ joueurs + "]";
 	}
- 	 
  	 
  	 
  	 
